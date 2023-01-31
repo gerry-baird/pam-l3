@@ -1,0 +1,33 @@
+{
+   "employeeRequest":{
+      "com.deluxedemo.deluxemodels.Employee":{
+         "name":"Fred Flintstone",
+         "role":"Principal Consultant",
+         "type":"Full Time",
+         "location":"Atlanta , GA",
+         "emailAddress":"fred@email.com",
+         "annualSalary":250000,
+         "contact":{
+            "com.deluxedemo.deluxemodels.Contact":{
+               "address":"301 Cobblestone Way",
+               "city":"Bedrock",
+               "zipcode":"70777"
+            }
+         },
+         "requestedMachine":{
+            "com.deluxedemo.deluxemodels.ComputerRequest":{
+               "screensize":"17 ' Inch",
+               "operatingSystem":"Mac OS",
+               "hardware":"Apple",
+               "cpu":"Intel 7th Gen",
+               "ram":"16 GB",
+               "type":"New",
+               "price":2650
+            }
+         },
+         "dateofHire":{
+            "java.util.Date":1674691200000
+         }
+      }
+   }
+}
